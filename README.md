@@ -57,3 +57,7 @@ cd vibecoding-claudecode-project-388
 Проверка: `python3 send.py "тест"`. Успешная отправка печатает `Отправлено.`. Для сводки из UTF-8 файла: `python3 send.py --file /tmp/tracker-message.txt`. Установка библиотек не нужна. При пустом diff трекер отправляет «Значимых изменений цен нет». При таймауте сначала проверь чат, чтобы не задублировать сообщение.
 
 Документация API: https://core.telegram.org/bots/api#sendmessage
+
+## Агент сводки
+
+Оформление готового diff делегируется `telegram_summary` на `gpt-6-luna` с reasoning `low`. Настройки: [.codex/agents/telegram_summary.toml](.codex/agents/telegram_summary.toml). Основной агент проверяет текст, сохраняет историю и запускает send.py. В новую задачу передаются только diff и правила, без полного диалога и секретов. Результаты сравнения качества и расчёт стоимости: [docs/summary-agent-check.md](docs/summary-agent-check.md).
