@@ -12,7 +12,7 @@
 - `tracker`: `.agents/skills/tracker/SKILL.md`; копия для задания — `.claude/skills/tracker/SKILL.md`. Полная проверка пяти URL: `docs/tracker-check.md`.
 - Ниша: SO-DIMM DDR5-5600 2×16 ГБ и Samsung 980 PRO 1–2 ТБ, Россия, RUB.
 - Контракт цены: `KNOWLEDGE.md`. Стартовые пять URL: `products.json`; результаты проверки и ограничения: `docs/url-check.md`.
-- История будет храниться отдельно в приватном `ako-develop/tracker-data`. GitHub-коннектор подтвердил приватность и права чтения/записи на оба репозитория; фактическая запись прогона пока не выполнялась.
+- История хранится отдельно в приватном `ako-develop/tracker-data`: `YYYY-MM-DD.json` в main, дата по Москве. tracker пишет через GitHub MCP без локального клонирования. Повторный запуск за день обновляет снимок новым коммитом. Первая запись и обратное чтение проверены: `docs/storage-check.md`.
 - Проверка скилла на трёх карточках: `docs/extract-price-check.md`. Использовано веб-чтение с возможным кешем; результаты не являются подтверждением свежих цен.
 
 Учебный проект Хекслета: https://ru.hexlet.io/programs/vibecoding-claudecode
