@@ -1,9 +1,17 @@
-# Трекер цен с Claude
+# Трекер цен с Codex
 
 
 [![hexlet-check](https://github.com/ako-develop/vibecoding-claudecode-project-388/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ako-develop/vibecoding-claudecode-project-388/actions)
 
-Соберите на Claude-скиллах трекер цен: он сам следит за товарами и присылает в Telegram только значимые изменения.
+Учебный трекер цен на скиллах Codex: сбор публичных цен товаров, история прогонов и уведомления о значимых изменениях в Telegram.
+
+## Подготовка
+
+- Рабочий каркас Codex: `.agents/skills/`.
+- Каркас из задания Хекслета: `.claude/skills/`. Скиллы появятся на следующих шагах.
+- Черновой контракт цены: `KNOWLEDGE.md`. Ниша и 5–10 URL ещё выбираются.
+- История будет храниться отдельно в приватном `ako-develop/tracker-data`; доступ к нему пока не подтверждён.
+- GitHub-коннектор текущей сессии успешно прочитал репозиторий проекта. Доступ на запись в репозиторий данных требует отдельной проверки.
 
 Учебный проект Хекслета: https://ru.hexlet.io/programs/vibecoding-claudecode
 
