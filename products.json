@@ -1,0 +1,53 @@
+[
+  {
+    "id": "onecom-samsung-980pro-2tb",
+    "name": "Samsung 980 PRO 2 ТБ",
+    "sku": "MZ-V8P2T0BW",
+    "url": "https://www.onecom.ru/catalog/?ELEMENT_ID=342161&SECTION_ID=64551",
+    "region": "Москва",
+    "currency": "RUB",
+    "price_basis": "наличный расчёт",
+    "enabled": true
+  },
+  {
+    "id": "born-samsung-980pro-1tb",
+    "name": "Samsung 980 PRO 1 ТБ",
+    "sku": "MZ-V8P1T0BW",
+    "url": "https://born-shop.ru/catalog/214959.html",
+    "region": "Москва",
+    "currency": "RUB",
+    "price_basis": "безналичная цена с НДС",
+    "enabled": true
+  },
+  {
+    "id": "kiber-kingston-32gb-5600",
+    "name": "Kingston FURY Impact DDR5-5600 SO-DIMM 2×16 ГБ",
+    "sku": "KF556S40IBK2-32",
+    "url": "https://kiber.net.ru/products/kingston-ddr5-sodimm-32gb-5600mhz-cl40-kit-of-2-fury-impact-kf556s40ibk2-32",
+    "region": "Москва",
+    "currency": "RUB",
+    "price_basis": "публичная цена карточки; наличие может означать предзаказ",
+    "enabled": true
+  },
+  {
+    "id": "telecom-kingston-32gb-5600",
+    "name": "Kingston FURY Impact DDR5-5600 SO-DIMM 2×16 ГБ",
+    "sku": "KF556S40IBK2-32",
+    "url": "https://telecom-sales.ru/product/kingston-kf556s40ibk2-32/",
+    "region": "Санкт-Петербург",
+    "currency": "RUB",
+    "price_basis": "публичная цена карточки",
+    "enabled": true
+  },
+  {
+    "id": "softline-kingston-32gb-5600",
+    "name": "Kingston FURY Impact DDR5-5600 SO-DIMM 2×16 ГБ",
+    "sku": "KF556S40IBK2-32",
+    "url": "https://store.softline.ru/kingston/kf556s40ibk2-32-454644/",
+    "region": "Москва",
+    "currency": "RUB",
+    "price_basis": "публичная B2B цена; только рыночный ориентир",
+    "personal_purchase": false,
+    "enabled": true
+  }
+]
